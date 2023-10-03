@@ -1,8 +1,12 @@
-/*  your css code here. If applicable */
-body {
+   body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
         }
 
         #animal-photos {
@@ -11,6 +15,7 @@ body {
             grid-gap: 20px;
             text-align: center;
             padding: 20px;
+            margin: 0 auto;
         }
 
         .animal-image {
